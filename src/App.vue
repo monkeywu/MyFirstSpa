@@ -1,7 +1,7 @@
 <template>
   <div class="app">
     <Menu/>
-    <img src="src/assets/bg1.jpg">
+    <img src="src/assets/bg1.jpg" style="width:70%;margin:0 auto;display:block;">
     <div class="content">
       <router-view/>
     </div>
