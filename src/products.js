@@ -1,9 +1,7 @@
-import img1 from './assets/bg2.jpg'
-
 export default [
     {
       id:1,
-      img: img1,
+      img: require('./assets/bg2.jpg'),
       name:'Product1'
     },
     {
