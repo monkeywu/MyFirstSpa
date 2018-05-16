@@ -1,7 +1,9 @@
 <template>
   <div class="app">
     <Menu/>
-    <img src="src/assets/bg1.jpg" style="width:70%;margin:0 auto;display:block;">
+    <div class="img">
+      <img src="src/assets/bg1.jpg">
+    </div>
     <div class="content">
       <router-view/>
     </div>
@@ -27,6 +29,11 @@ export default{
     }
     img {
         width:100%;
+    }
+    .img img {
+      width:70%;
+      display:block;
+      margin:0 auto;
     }
     body,html {
         margin:0;
